@@ -16,10 +16,11 @@ Helipads (inlcuding invisible pads) are set at vehicle traders to mark suitable 
 Rememeber that if you are using infistar you will need to add trader exclusions (anti-TP) to stop spawns being immediately moved back.
 
 Feel free to change around the camps as you require for your server.
+
 Don't blame me if things go bang - you will need to set things up right to get it working right and I DO recommend using the above mentioned script by krwtt to make sure new bought vehicles dont go boom.
+
 If you are able to give a little credit or kudos if you use the camps then thats awesome. If not, then meh, that's life.
+
 Huge thanks to TheKnightTemplar & Utomnia for their server hosting and help, and the Wild Crew for testing and breaking everything.
 
 Enjoy.
-
-Huge thanks to TheKnightTemplar & Utomnia for their server hosting and help.
