@@ -1,0 +1,494 @@
+	class Markers {
+		items = 40;
+///////////////////////////
+//Spawn Zones
+///////////////////////////		
+		class Item0
+		{
+			position[]={9955.2891,30.657309,17016.832};
+			name="SpawnOlten";
+			text="Olten";
+			type="ExileSpawnZone";
+		};
+		class Item1
+		{
+			position[]={3864.3274,29.977425,13952.766};
+			name="SpawnBubendorf";
+			text="Bubendorf";
+			type="ExileSpawnZone";
+		};
+		class Item2
+		{
+			position[]={2055.1467,44.471859,9920.8779};
+			name="SpawnIttingen";
+			text="Ittingen";
+			type="ExileSpawnZone";
+		};
+		class Item3
+		{
+			position[]={11153.433,48.417824,2022.0093};
+			name="SpawnGoldwill";
+			text="Goldwill";
+			type="ExileSpawnZone";
+		};
+		class Item4
+		{
+			position[]={13260.826,115.61482,6953.7441};
+			name="SpawnFarnen";
+			text="Farnen";
+			type="ExileSpawnZone";
+		};
+		class Item5
+		{
+			position[]={7033.9121,101.11308,6356.8838};
+			name="SpawnEggwill";
+			text="Eggwill";
+			type="ExileSpawnZone";
+		};
+		class Item6
+		{
+			position[]={15155.131,120.89085,11352.156};
+			name="SpawnSachseln";
+			text="Sachseln";
+			type="ExileSpawnZone";
+		};
+///////////////////////////
+//Wolhusen Trader Camp
+///////////////////////////
+		class Item7
+		{
+			position[]={14249.996,8.9897442,12661.837};
+			name = "WolhusenMainTrader";
+			text = "Trader City";
+			markerType = "ELLIPSE";
+			type = "ExileTraderZone";
+			alpha=0;
+			colorName = "ColorGreen";
+			fillName = "SolidBorder";
+			a = 5;
+			b = 5;
+			drawBorder = 1;
+		};
+		class Item8
+		{
+			position[]={14249.996,8.9897442,12661.837};
+			name = "WolhusenMainTrader";
+			text = "Trader City";
+			markerType = "ELLIPSE";
+			type = "VisualMapZone";
+			colorName = "ColorGreen";
+			fillName = "SolidBorder";
+			a = 35;
+			b = 35;
+			drawBorder = 1;
+		};
+		class Item9
+		{
+			position[]={14249.996,8.9897442,12661.837};
+			name = "Wolhusen Trader";
+			text = "Wolhusen Trader";
+			type="loc_Tree";
+			colorName="ColorWhite";
+			fillName="Vertical";
+			a=2;
+			b=2;
+		};
+///////////////////////////
+//Rorenpass Trader Camp
+///////////////////////////
+		class Item10
+		{
+			position[]={15442.995,205.8627,5791.0361};
+			name = "RorenpassMainMarker";
+			text = "Trader City";
+			markerType = "ELLIPSE";
+			type = "ExileTraderZone";
+			alpha=0;
+			colorName = "ColorGreen";
+			fillName = "SolidBorder";
+			a = 20;
+			b = 20;
+			drawBorder = 1;
+		};
+		class Item11
+		{
+			position[]={15442.995,205.8627,5791.0361};
+			name = "RorenpassMainMarker";
+			text = "Trader City";
+			markerType = "ELLIPSE";
+			type = "VisualMapZone";
+			colorName = "ColorGreen";
+			fillName = "SolidBorder";
+			a = 50;
+			b = 50;
+			drawBorder = 1;
+		};
+		class Item12
+		{
+			position[]={15442.995,205.8627,5791.0361};
+			name="RorenpassMainTrader";
+			text="Rorenpass Trader";
+			type="loc_Tree";
+			colorName="ColorWhite";
+			fillName="Vertical";
+			a=2;
+			b=2;
+		};
+///////////////////////////
+//Lenzburg Trader Camp
+///////////////////////////
+		class Item13
+		{
+			position[]={8247.1084,4.2247825,15491.026};
+			name = "LenzBurgMainMarker";
+			text = "Trader City";
+			markerType = "ELLIPSE";
+			type = "ExileTraderZone";
+			alpha=0;
+			colorName = "ColorGreen";
+			fillName = "SolidBorder";
+			a = 30;
+			b = 30;
+			drawBorder = 1;
+		};
+		class Item14
+		{
+			position[]={8247.1084,4.2247825,15491.026};
+			name = "LenzBurgMainMarker";
+			text = "Trader City";
+			markerType = "ELLIPSE";
+			type = "VisualMapZone";
+			colorName = "ColorGreen";
+			fillName = "SolidBorder";
+			a = 60;
+			b = 60;
+			drawBorder = 1;
+		};
+		class Item15
+		{
+			position[]={8247.1084,4.2247825,15491.026};
+			name="LenzBurgMainTrader";
+			text="Lenzburg Trader";
+			type="loc_Tree";
+			colorName="ColorWhite";
+			fillName="Vertical";
+			a=2;
+			b=2;
+		};
+///////////////////////////
+//Worb Trader Camp
+///////////////////////////
+		class Item16
+		{
+			position[]={2782.8335,83.24498,7928.9248};
+			name = "WorbMainMarker";
+			text = "Trader City";
+			markerType = "ELLIPSE";
+			type = "ExileTraderZone";
+			alpha=0;
+			colorName = "ColorGreen";
+			fillName = "SolidBorder";
+			a = 50;
+			b = 50;
+			drawBorder = 1;
+		};
+		class Item17
+		{
+			position[]={2782.8335,83.24498,7928.9248};
+			name = "WorbMainMarker";
+			text = "Trader City";
+			markerType = "ELLIPSE";
+			type = "VisualMapZone";
+			colorName = "ColorGreen";
+			fillName = "SolidBorder";
+			a = 80;
+			b = 80;
+			drawBorder = 1;
+		};
+		class Item18
+		{
+			position[]={2782.8335,83.24498,7928.9248};
+			name="WorbTrader";
+			text="Worb Trader";
+			type="loc_Tree";
+			colorName="ColorWhite";
+			fillName="Vertical";
+			a=2;
+			b=2;
+		};
+///////////////////////////
+//Aircraft Traders
+///////////////////////////
+		class Item19
+		{
+			position[]={15232.996,16.391525,16242.756};
+			name = "NorthAirTrader";
+			text = "Aircraft Trader";
+			markerType = "ELLIPSE";
+			type = "ExileTraderZone";
+			alpha=0;
+			colorName = "ColorBlack";
+			fillName = "SolidBorder";
+			a = 10;
+			b = 10;
+			drawBorder = 1;
+		};
+		class Item20
+		{
+			position[]={15232.996,16.391525,16242.756};
+			name = "NorthAirTrader";
+			text = "Aircraft Trader";
+			markerType = "ELLIPSE";
+			type = "VisualMapZone";
+			colorName = "ColorBlack";
+			fillName = "SolidBorder";
+			a = 40;
+			b = 40;
+			drawBorder = 1;
+		};
+		class Item21
+		{
+			position[]={15232.996,16.391525,16242.756};
+			name="North Aircraft Trader";
+			text="Aircraft Trader";
+			type="loc_Tree";
+			colorName="ColorWhite";
+			fillName="Vertical";
+			a=2;
+			b=2;
+		};
+		class Item22
+		{
+			position[]={5136.748,71.589027,4865.293};
+			name = "SouthAirTrader";
+			text = "Aircraft Trader";
+			markerType = "ELLIPSE";
+			type = "ExileTraderZone";
+			alpha=0;
+			colorName = "ColorBlack";
+			fillName = "SolidBorder";
+			a = 10;
+			b = 10;
+			drawBorder = 1;
+		};
+		class Item23
+		{
+			position[]={5136.748,71.589027,4865.293};
+			name = "SouthAirTrader";
+			text = "Aircraft Trader";
+			markerType = "ELLIPSE";
+			type = "VisualMapZone";
+			colorName = "ColorBlack";
+			fillName = "SolidBorder";
+			a = 40;
+			b = 40;
+			drawBorder = 1;
+		};
+		class Item24
+		{
+			position[]={5136.748,71.589027,4865.293};
+			name="South Air Trader";
+			text="Aircraft Trader";
+			type="loc_Tree";
+			colorName="ColorWhite";
+			fillName="Vertical";
+			a=2;
+			b=2;
+		};
+///////////////////////////
+//Boat Traders
+///////////////////////////
+		class Item25
+		{
+			position[]={16864.8, 0, 5275.23};
+			name = "BoatTraderZone1";
+			text = "Boat Trader";
+			markerType = "ELLIPSE";
+			type = "ExileTraderZone";
+			alpha=0;
+			colorName = "ColorBlack";
+			fillName = "SolidBorder";
+			a = 20;
+			b = 20;
+			drawBorder = 1;
+		};
+		class Item26
+		{
+			position[]={16864.8, 0, 5275.23};
+			name = "BoatTraderZone1";
+			text = "Boat Trader";
+			markerType = "ELLIPSE";
+			type = "VisualMapZone";
+			colorName = "ColorBlack";
+			fillName = "SolidBorder";
+			a = 50;
+			b = 50;
+			drawBorder = 1;
+		};
+		class Item27
+		{
+			position[]={16864.8, 0, 5275.23};
+			name="BoatTraderMarker1";
+			text="Boat Trader";
+			type="loc_Tree";
+			colorName="ColorWhite";
+			fillName="Vertical";
+			a=2;
+			b=2;
+		};
+		class Item28
+		{
+			position[]={1994.74, 0, 7794.3};
+			name = "BoatTraderZone2";
+			text = "Boat Trader";
+			markerType = "ELLIPSE";
+			type = "ExileTraderZone";
+			alpha=0;
+			colorName = "ColorBlack";
+			fillName = "SolidBorder";
+			a = 20;
+			b = 20;
+			drawBorder = 1;
+		};
+		class Item29
+		{
+			position[]={1994.74, 0, 7794.3};
+			name = "BoatTraderZone2";
+			text = "Boat Trader";
+			markerType = "ELLIPSE";
+			type = "VisualMapZone";
+			colorName = "ColorBlack";
+			fillName = "SolidBorder";
+			a = 50;
+			b = 50;
+			drawBorder = 1;
+		};
+		class Item30
+		{
+			position[]={1994.74, 0, 7794.3};
+			name="BoatTraderMarker2";
+			text="Boat Trader";
+			type="loc_Tree";
+			colorName="ColorWhite";
+			fillName="Vertical";
+			a=2;
+			b=2;
+		};
+		class Item31
+		{
+			position[]={6771.39, 0, 16933.3};
+			name = "BoatTraderZone3";
+			text = "Boat Trader";
+			markerType = "ELLIPSE";
+			type = "ExileTraderZone";
+			alpha=0;
+			colorName = "ColorBlack";
+			fillName = "SolidBorder";
+			a = 20;
+			b = 20;
+			drawBorder = 1;
+		};
+		class Item32
+		{
+			position[]={6771.39, 0, 16933.3};
+			name = "BoatTraderZone3";
+			text = "Boat Trader";
+			markerType = "ELLIPSE";
+			type = "VisualMapZone";
+			colorName = "ColorBlack";
+			fillName = "SolidBorder";
+			a = 50;
+			b = 50;
+			drawBorder = 1;
+		};
+		class Item33
+		{
+			position[]={6771.39, 0, 16933.3};
+			name="BoatTraderMarker3";
+			text="Boat Trader";
+			type="loc_Tree";
+			colorName="ColorWhite";
+			fillName="Vertical";
+			a=2;
+			b=2;
+		};
+///////////////////////////
+//Waste Dump Traders
+///////////////////////////
+		class Item34
+		{
+			position[]={9804.3301,76.398087,10308.96};
+			name = "DumpTraderZone1";
+			text = "Waste Dump";
+			markerType = "ELLIPSE";
+			type = "ExileTraderZone";
+			alpha=0;
+			colorName = "ColorBlack";
+			fillName = "SolidBorder";
+			a = 1;
+			b = 1;
+			drawBorder = 1;
+		};
+		class Item35
+		{
+			position[]={9804.3301,76.398087,10308.96};
+			name = "DumpTraderZone1";
+			text = "Waste Dump";
+			markerType = "ELLIPSE";
+			type = "VisualMapZone";
+			colorName = "ColorBlack";
+			fillName = "SolidBorder";
+			a = 31;
+			b = 31;
+			drawBorder = 1;
+		};
+		class Item36
+		{
+			position[]={9804.3301,76.398087,10308.96};
+			name="DumpTraderMarker1";
+			text="Waste Dump";
+			type="loc_Tree";
+			colorName="ColorWhite";
+			fillName="Vertical";
+			a=2;
+			b=2;
+		};
+		class Item37
+		{
+			position[]={8688.4238,68.228577,5350.416};
+			name = "DumpTraderZone2";
+			text = "Waste Dump";
+			markerType = "ELLIPSE";
+			type = "ExileTraderZone";
+			alpha=0;
+			colorName = "ColorBlack";
+			fillName = "SolidBorder";
+			a = 5;
+			b = 5;
+			drawBorder = 1;
+		};
+		class Item38
+		{
+			position[]={8688.4238,68.228577,5350.416};
+			name = "DumpTraderZone2";
+			text = "Waste Dump";
+			markerType = "ELLIPSE";
+			type = "VisualMapZone";
+			colorName = "ColorBlack";
+			fillName = "SolidBorder";
+			a = 35;
+			b = 35;
+			drawBorder = 1;
+		};
+		class Item39
+		{
+			position[]={8688.4238,68.228577,5350.416};
+			name="DumpTraderMarker2";
+			text="Waste Dump";
+			type="loc_Tree";
+			colorName="ColorWhite";
+			fillName="Vertical";
+			a=2;
+			b=2;
+		};
+	};
